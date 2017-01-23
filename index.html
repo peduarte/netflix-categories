@@ -10,11 +10,11 @@ layout: default
 	{% for categoryGroup in site.data.categories %}
 		<div class="category">
 			<h3>{{ categoryGroup[0] }}</h3>
-			<div>
+			<ul class="list">
 				{% for category in categoryGroup[1] %}
-					<p><a href="https://netflix.com/browse/genre/{{ category.id }}">{{ category.label }}</a></p>
+					<li><a href="https://netflix.com/browse/genre/{{ category.id }}">{{ category.label }}</a></li>
 				{% endfor %}
-			</div>
+			</ul>
 		</div>
 	{% endfor %}
 </div>
