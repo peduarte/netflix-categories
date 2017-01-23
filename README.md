@@ -1,4 +1,4 @@
-# fathomlondon.github.io
+# peduarte.github.io/netflix-categories
 
 ## Requirements
 
