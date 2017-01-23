@@ -1,0 +1,18 @@
+# See https://jekyllrb.com/docs/configuration/#default-configuration
+# for all possible configuration
+
+# Site settings
+title: Netflix Categories
+description: Browse and discover hidden Netflix categories
+url: "http://peduarte.github.io/netflix-categories"
+baseurl: "" # the subpath of your site, e.g. /blog
+
+
+# Conversion
+markdown: kramdown
+
+# Serving
+baseurl: "" # the subpath of your site, e.g. /blog
+
+# Outputing
+permalink: blog/:year/:month/:day/:title/	# default permalink for blog posts, needs to be customised for other pages
