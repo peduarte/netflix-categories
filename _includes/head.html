@@ -1,0 +1,27 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>{{ site.title | escape }} - {{ site.description | escape }}</title>
+	<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+	<link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@peduarte" />
+	<meta name="twitter:creator" content="@peduarte" />
+	<meta name="twitter:title" content="{{ site.title | escape }}" />
+	<meta name="twitter:description" content="{{ site.description | escape }}" />
+	<meta name="twitter:url" content="{{ site.url }}" />
+	<meta name="twitter:image" content="{{ '/assets/images/postcard.png' | relative_url }}" />
+
+	<meta property="og:url" content="{{ site.url }}" />
+	<meta property="og:image" content="{{ '/assets/images/postcard.png' | relative_url }}" />
+	<meta property="og:title" content="{{ site.title | escape }}" />
+	<meta property="og:description" content="{{ site.description | escape }}" />
+
+	<link rel="icon" type="image/png" href="{{ '/assets/images/favicon-16x16.png' | relative_url }}" sizes="16x16">
+	<link rel="icon" type="image/png" href="{{ '/assets/images/favicon-32x32.png' | relative_url }}" sizes="32x32">
+	<link rel="icon" type="image/png" href="{{ '/assets/images/favicon-64x64.png' | relative_url }}" sizes="64x64">
+</head>
